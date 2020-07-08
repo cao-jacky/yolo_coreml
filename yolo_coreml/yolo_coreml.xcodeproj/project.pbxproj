@@ -50,7 +50,7 @@
 		7BC25F951EF1B7D1002ECBBA = {
 			isa = PBXGroup;
 			children = (
-				7BC25FA01EF1B7D1002ECBBA /* YOLOv3-CoreML */,
+				7BC25FA01EF1B7D1002ECBBA /* yolo_coreml */,
 				7BC25F9F1EF1B7D1002ECBBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,7 +64,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7BC25FA01EF1B7D1002ECBBA /* YOLOv3-CoreML */ = {
+		7BC25FA01EF1B7D1002ECBBA /* yolo_coreml */ = {
 			isa = PBXGroup;
 			children = (
 				372CB263209C9B2600F501E3 /* BoundingBox.swift */,
@@ -80,7 +80,7 @@
 				7BC25FA31EF1B7D1002ECBBA /* ViewController.swift */,
 				7BA1C6D71EF2871600BB25EF /* YOLO.swift */,
 			);
-			path = "YOLOv3-CoreML";
+			path = yolo_coreml;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33UEKZYDFK;
 				GCC_OPTIMIZATION_LEVEL = s;
-				INFOPLIST_FILE = "YOLOv3-CoreML/Info.plist";
+				INFOPLIST_FILE = yolo_coreml/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +317,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33UEKZYDFK;
-				INFOPLIST_FILE = "YOLOv3-CoreML/Info.plist";
+				INFOPLIST_FILE = yolo_coreml/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
