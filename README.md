@@ -4,6 +4,6 @@ This repo was forked and modified from [Ma-Dan/YOLOv3-CoreML](https://github.com
 
 Key things:
 1. I am testing with an iPhone 11 Pro Max, i.e., screen resolution and output is adapted for this phone
-2. My plan is to update the model to use YOLOv4 or YOLOv4-tiny - my hope is to increase the FPS further from ~20/30 FPS to even higher
+2. My plan is to update the model to use YOLOv4 or YOLOv4-tiny - my hope is to increase the FPS further from ~20/30 FPS to even higher -- this seems more difficult than initially thought since the tools to convert the model do not support YOLOv4 yet
 
 ![YOLO in action](example.png)
